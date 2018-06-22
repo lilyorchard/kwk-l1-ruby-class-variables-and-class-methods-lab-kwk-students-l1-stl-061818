@@ -31,9 +31,9 @@ end
 jon_song = Song.new("Hippity Hoppity", "Jon Mendez", "Jon's Way")
 bird_song = Song.new("l","n","u")
 puts "this is the first method"
-puts jon_song.get_count
+# puts jon_song.gets_count
 puts "this is the second method"
-outs Song.get_count_other_way
+# puts Song.get_count_other_way
 
 # puts jon_song.jenje
 # puts "Wow, what a great choice!"
