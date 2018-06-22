@@ -6,7 +6,9 @@ class Song
     @name = name
   end
   
-  
+  def get_count 
+    @@get_count
+  end
   # def gets_jenje
   #   @jenje
   # end
