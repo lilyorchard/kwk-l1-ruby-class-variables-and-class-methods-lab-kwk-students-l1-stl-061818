@@ -22,9 +22,9 @@ class Song
   # def gets_name
   #   @name
   # end
-  def self.get_count_other_way
-    @@get_count_other_way
-  end
+  # def self.get_count_other_way
+  #   @@get_count_other_way
+  # end
 
 end
 
