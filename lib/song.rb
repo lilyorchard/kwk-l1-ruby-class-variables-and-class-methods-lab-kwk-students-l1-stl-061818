@@ -18,12 +18,20 @@ class Song
   # def gets_name
   #   @name
   # end
-  
+  def self.get_count_other_way
+    @@get_count_other_way
+  end
 
 end
 
 jon_song = Song.new("Hippity Hoppity", "Jon Mendez", "Jon's Way")
-puts jon_song.jenje
-puts "Wow, what a great choice!"
-puts jon_song.name
-puts jon_song.artist
+bird_song = Song.new("l","n","u")
+puts "this is the first method"
+puts jon_song.get_count
+puts "this is the second method"
+outs Song.get_count_other_way
+
+# puts jon_song.jenje
+# puts "Wow, what a great choice!"
+# puts jon_song.name
+# puts jon_song.artist
